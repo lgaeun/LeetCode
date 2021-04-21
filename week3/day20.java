@@ -28,7 +28,8 @@ class Solution {
         return ans;
     }
 }
-//List앞에 stataic을 붙이면 메모리에 고정돼서 테케 돌릴때마다 같은 list에 쌓임!! 제일 빠른 방법
+//List앞에 static을 붙이면 메모리에 고정돼서 테케 돌릴때마다 같은 list에 쌓임. Leetcode에서 static 사용 주의!
+//제일 빠른 방법
 
 class Solution {
     public LinkedList<Integer> preorder(Node root) {
